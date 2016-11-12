@@ -8,6 +8,7 @@
 $(call inherit-product, device/samsung/sdm845-common/common.mk)
 
 # Boot Animation
+TARGET_BOOTANIMATION_HALF_RES := true
 TARGET_SCREEN_HEIGHT := 2960
 TARGET_SCREEN_WIDTH := 1440
 
