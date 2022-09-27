@@ -7,6 +7,10 @@
 # Inherit from the common OEM chipset makefile.
 $(call inherit-product, device/samsung/sdm845-common/common.mk)
 
+# Boot Animation
+TARGET_SCREEN_HEIGHT := 2960
+TARGET_SCREEN_WIDTH := 1440
+
 # Display
 PRODUCT_PRODUCT_PROPERTIES += \
     ro.sf.lcd_density=480 \
